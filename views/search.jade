@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1 Search for images!
+
+    div
+        input(id="searchInput" type="text", placeholder="Enter the image file name")
+        button(onclick='search()') Search
+
+    div(id="searchResults")
+
+    
