@@ -1,6 +1,6 @@
 
 // Put your prediction endpoint here
-const PREDICTIONS_URL = "http://image-det-route-showcase.52.166.94.187.nip.io/image/"
+const PREDICTIONS_URL = ""
 
 
 var search = function() {
@@ -13,7 +13,7 @@ var search = function() {
         $('#searchResults').text(data)
     })
     .fail(function(err) {
-        $('#searchResults').text("Error while searching for image predictions")
+        $('#searchResults').text("Error while searching for image predictions. Maybe You forgot to change the prediction URL? ")
     })
 
 }
