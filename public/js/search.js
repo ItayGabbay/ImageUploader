@@ -13,7 +13,7 @@ var search = function() {
         $('#searchResults').text(data)
     })
     .fail(function(err) {
-        $('#searchResults').text("Error while searching for image predictions. Maybe You forgot to change the prediction URL? ;)")
+        $('#searchResults').text("Error while detection. Maybe You forgot to change the detection URL? ;)")
     })
 
 }
