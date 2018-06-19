@@ -1,6 +1,6 @@
 
 // Put your prediction endpoint here
-const PREDICTIONS_URL = ""
+const PREDICTIONS_URL = "Enter Your Endpoint Here"
 
 
 var search = function() {
