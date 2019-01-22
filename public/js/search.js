@@ -1,6 +1,6 @@
 
 // Put your prediction endpoint here
-const PREDICTIONS_URL = "Put here your detection endpoint"
+const PREDICTIONS_URL = "http://image-det-route-my-new-app.52.166.94.187.nip.io/image/"
 
 
 var search = function() {
