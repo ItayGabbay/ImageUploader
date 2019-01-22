@@ -11,7 +11,7 @@
  	var s3 = new AWS.S3({
 		  accessKeyId: 'I5Z7JSF9L1Y4I26P2WSC' ,
 		  secretAccessKey: 'SPbRHYDTB1iUQiyykEyvGXlDEEc3POtinxsWvlha' ,
-		  endpoint: "http://51.144.77.37:9000" ,
+		  endpoint: "http://13.94.169.165:9000" ,
 		  s3ForcePathStyle: true, // needed with minio?
 		  signatureVersion: 'v4'
 	}),
